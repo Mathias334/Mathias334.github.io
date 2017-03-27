@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8" />
+	<title>MthsIUT</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="shortcut icon" href="img/favicon.ico">
+	
+</head>
+<body>
+<!--btn top-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+	
+	<!-- Header-->
+	<header>
+	
+	<img class="photo" src="img/photo.jpg" width="200" height="200">
+	<h1 class="aller">Mathias Fratani</h1>
+		<p class="retour">Etudiant en Developpement Informatique</p>
+	</header>
+	
+	<div class="container">
+		
+		<!-- Introduction-->
+		<section class="center">
+			<h1>Welcome!</h1>
+			<p>
+				Bonjour, je suis un étudiant en informatique et multimédia à l'IUT Bordeaux Montaigne <br> Mon objectif est de développer mes
+				connaissances dans différents langages tel que le Html, Css, Java, Jquery et PHP afin d'être opérationnel dans le monde du web<br>
+				(quelques conaissances en ruby, ruby on rails, et git mais ce n'est pas ma spécialité).
+			</p>
+		</section>
+		
+		<hr>
+		
+		<!-- Travaux-Gallery -->
+		<section class="gallery">
+		<h1 class="center">Realisations</h1>
+			<div class="row">
+				<a href="http://mathias11.e-monsite.com/"><img src="img/skiweb.png" class="grid-2"></a>
+				<a href="img/cv.mathias.pdf"><img src="img/cv.png" class="grid-2"></a>
+				<a href="http://lepetitpanierbordelais.fr/"><img src="img/LPPB.png" class="grid-2"></a>
+				</div>
+		</section>
+		
+		<hr>
+		
+		<!-- Testimonials-->	
+		
+	
+	<!-- Spotlight -->
+	<section class="spotlight">
+		<div class="container">
+			<div class="row">
+				<div class="grid-3">
+					<img src="img/ONO.png">
+				</div>
+				<div class="grid-3">
+					<h1>Project ONO</h1>
+					<p>Voici un projet, créer par des deuxièmes années et repris par nous.<br>Sur l'utilisation de la technologie et du multimédia dans le monde</p>
+					<a href="http://ono-.herokuapp.com/login">Voir</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<!-- New container-->
+	<div class="container">
+	
+		<section class="education">	
+			<h2> Mes Differentes Formations</h2>
+		</section>
+		
+		<hr>
+			
+		<!--Experience Tables-->
+		<section class="experience">
+			<div class="row">
+				<div class="grid-2">
+					<h2>Lycée Victor-Louis</h2>
+					<p>Sept. 2012 - Juil. 2015</p>
+				</div>
+				<div class="grid-4">
+					<ul>
+						<li>Seconde Générale</li>
+						<li>Première Technologique STMG (sciences technologie du management et de la gestion)</li>
+						<li>Terminale STMG : Spécialité SIG (sciences informatique et de la gestion)</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="grid-2">
+					<h2>Université Bordeaux 1</h2>
+					<p>Sept. 2015 - Janv. 2016</p>
+				</div>
+				<div class="grid-4">
+					<ul>
+						<li>Un semestre dans l'étude de la sciences et de la technologie</li>						
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="grid-2">
+					<h2>Université Bordeaux 3</h2>
+					<p>Janv. 2016 - Juin. 2016</p>
+				</div>
+				<div class="grid-4">
+					<ul>
+						<li>Un semestre en LCE1 Anglais</li>						
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="grid-2">
+					<h2>DUT MMI</h2>
+					<p>Sept 2016 - En cours</p>
+				</div>
+				<div class="grid-4">
+					<ul>
+						<li>Etudes sur les différents langages de programmation</li>
+						<li>Etudes sur le Multimédia</li>
+						<li>Etudes sur les langues etrangeres (Anglais, Chinois)</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		
+		<hr>
+		
+		<section>
+			<!--List of skills-->
+			<div class="row">
+				<div class="grid-2">
+					<h1>Langages</h1>
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>Php</li>
+						<li>Sql</li>
+						<li>Javascript</li>
+						<li>Jquery</li>
+						<li>Git</li>
+						<li>Wordpress</li>
+					</ul>
+				</div>
+				
+				<div class="grid-4">
+					<h1>En Conclusion</h1>
+					<p>
+						Je peux vous affirmer que mes principales compétences sont dans le webdeveloppement, spécialement dans le front end, mais attention je possèdes de bonnes bases aussi dans le back-end, le traitement et l'organisation des données via PHP et SQL ne me fait pas peur.
+						Si jamais vous serez intéresser pour une collaboration, ou que vous avez des questions, n'hésitez pas à me contacter via <a href="mailto:mathias.fratani1@gmail.com?Subject=Responsive%20Resume" target="_top">email</a> ou même			
+						<a href="http://www.twitter.com/philipcdavis"> mon facebook</a>.
+					</p>
+				</div>
+			</div>
+		</section>
+		<i class="fa fa-arrow-up" aria-hidden="true"></i>
+
+
+		
+		
+		
+		<!--Footer-->
+		<footer class="center">
+			<hr>
+			<span>Mathias Fratani 2017</span>
+		</footer>
+		
+	</div><!-- End Container -->
+	</body>
+</html>
